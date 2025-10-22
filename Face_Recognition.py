@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical
 # Define dataset path
-DATASET_PATH = r"C:\Users\kashif.khan\Desktop\Python and AI\Lectures\Chapter 2_Machine_Learning\Face Recongition\Python Practice\Dataset"
+DATASET_PATH = r"your_path"
 
 
 # Image parameters
@@ -86,3 +86,4 @@ predicted_label = np.argmax(prediction)
 plt.imshow(test_img)
 plt.title(f"Predicted: {person_names[predicted_label]}")
 plt.show()
+
